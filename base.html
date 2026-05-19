@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+  ═══════════════════════════════════════════════════════════════
+  base.html — Modo Minds Base Template (REFERENCE ONLY)
+  ═══════════════════════════════════════════════════════════════
+
+  This file is a reference template showing the shared structure
+  used across all Modo Minds pages.
+
+  HOW INJECTION WORKS (static HTML approach):
+  ──────────────────────────────────────────
+  ① head.js   → Injects common <head> content into every page:
+                  - Google Analytics (gtag.js)
+                  - Meta Pixel
+                  - charset / viewport meta tags
+                  - Favicon
+                  - Google Fonts (Poppins)
+                  - Font Awesome
+                  - assets/css/style.css
+
+  ② navbar.js → Injects the sticky navigation bar
+                (already in use on all pages)
+
+  ③ footer.js → Injects the shared footer HTML
+
+  USAGE IN EACH PAGE:
+  ──────────────────
+  <head>
+    <!-- Page-specific title & meta description ONLY -->
+    <title>Page Title — Modo Minds</title>
+    <meta name="description" content="Page-specific description.">
+
+    <!-- Inject all shared head resources -->
+    <script src="assets/js/head.js"></script>
+  </head>
+  <body>
+    <!-- Inject shared navbar -->
+    <script src="assets/js/navbar.js"></script>
+
+    <!-- ═══ PAGE-SPECIFIC CONTENT HERE ═══ -->
+
+    <!-- Inject shared footer -->
+    <script src="assets/js/footer.js"></script>
+  </body>
+-->
+
+<head>
+  <!-- Page-specific: title & description (change per page) -->
+  <title>Page Title — Modo Minds</title>
+  <meta name="description" content="Page-specific description goes here.">
+
+  <!-- Shared head injection (Google Analytics, Meta Pixel, fonts, CSS) -->
+  <script src="assets/js/head.js"></script>
+</head>
+
+<body>
+
+  <!-- Shared navbar injection -->
+  <script src="assets/js/navbar.js"></script>
+
+  <!-- ═══════════════════════════════════════════════════
+       PAGE-SPECIFIC CONTENT GOES HERE
+       ═══════════════════════════════════════════════════ -->
+
+  <!-- Shared footer injection -->
+  <script src="assets/js/footer.js"></script>
+
+</body>
+</html>

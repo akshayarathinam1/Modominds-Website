@@ -65,7 +65,7 @@
     .mm-cta{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px 24px;background:linear-gradient(135deg,#712A2E 0%,#B4474D 55%,#F24855 100%);color:#fff;font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:600;border-radius:999px;border:none;cursor:pointer;text-decoration:none;box-shadow:0 4px 18px rgba(180,71,77,.32);transition:opacity .2s,transform .2s;}
     .mm-cta:hover{opacity:.9;transform:translateY(-1px);}
 
-    @media(max-width:1024px){
+    @media(max-width:1100px){
       #nav{padding:0 24px;}
       .nav-menu{display:none;}
       .nav-cta{display:none;}
@@ -73,6 +73,7 @@
     }
     @media(max-width:480px){
       #nav{padding:0 16px;}
+      .nav-logo img{height:26px;}
     }
   `;
   var styleEl = document.createElement('style');
@@ -83,7 +84,7 @@
   var navHTML = `
   <nav id="nav" aria-label="Main navigation">
     <a href="index.html" class="nav-logo" aria-label="Modo Minds home">
-      <img src="Logo-Finalized-1.0.png" alt="Modo Minds"/>
+      <img src="assets/logo/Logo-Finalized-1.0.png" alt="Modo Minds"/>
     </a>
 
     <ul class="nav-menu" role="list">
@@ -92,42 +93,42 @@
           <svg class="nav-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <ul class="nav-drop" role="menu">
-          <li><a class="drop-a" href="studio.html#brand-identity"><span class="drop-title">Brand Identity</span><span class="drop-sub">Visual language &amp; positioning</span></a></li>
-          <li><a class="drop-a" href="studio.html#shoot-production"><span class="drop-title">Shoot &amp; Production</span><span class="drop-sub">Photo, video &amp; creative assets</span></a></li>
-          <li><a class="drop-a" href="studio.html#creative-strategy"><span class="drop-title">Creative Strategy</span><span class="drop-sub">Campaigns &amp; content systems</span></a></li>
+          <li><a class="drop-a" href="brandidentity.html"><span class="drop-title">Brand Identity</span><span class="drop-sub">Visual language &amp; positioning</span></a></li>
+          <li><a class="drop-a" href="shoot.html"><span class="drop-title">Shoot &amp; Production</span><span class="drop-sub">Photo, video &amp; creative assets</span></a></li>
+          <li><a class="drop-a" href="creativestrategy.html"><span class="drop-title">Creative Strategy</span><span class="drop-sub">Campaigns &amp; content systems</span></a></li>
         </ul>
       </li>
       <li class="nav-item">
-        <button class="nav-btn">Growth Labs
+        <a class="nav-btn" href="growthoverview.html">Growth Labs
           <svg class="nav-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
+        </a>
         <ul class="nav-drop" role="menu">
-          <li><a class="drop-a" href="#"><span class="drop-title">Paid Ads</span><span class="drop-sub">Meta, Google &amp; marketplace</span></a></li>
-          <li><a class="drop-a" href="#"><span class="drop-title">SEO</span><span class="drop-sub">Organic search &amp; content</span></a></li>
-          <li><a class="drop-a" href="#"><span class="drop-title">Analytics &amp; Reporting</span><span class="drop-sub">Data dashboards &amp; insights</span></a></li>
+          <li><a class="drop-a" href="paidads.html"><span class="drop-title">Paid Ads</span><span class="drop-sub">Meta, Google &amp; marketplace</span></a></li>
+          <li><a class="drop-a" href="seo.html"><span class="drop-title">SEO</span><span class="drop-sub">Organic search &amp; content growth</span></a></li>
+          <li><a class="drop-a" href="analytics.html"><span class="drop-title">Analytics &amp; Reporting</span><span class="drop-sub">Data dashboards &amp; insights</span></a></li>
         </ul>
       </li>
       <li class="nav-item">
-        <button class="nav-btn">Product Labs
+        <a class="nav-btn" href="productoverview.html">Product Labs
           <svg class="nav-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
+        </a>
         <ul class="nav-drop" role="menu">
-          <li><a class="drop-a" href="#"><span class="drop-title">Product Development</span><span class="drop-sub">Digital products &amp; platforms</span></a></li>
-          <li><a class="drop-a" href="#"><span class="drop-title">Website</span><span class="drop-sub">Design &amp; web engineering</span></a></li>
-          <li><a class="drop-a" href="#"><span class="drop-title">Applications</span><span class="drop-sub">Mobile &amp; web apps</span></a></li>
+          <li><a class="drop-a" href="productdevelopment.html"><span class="drop-title">Product Development</span><span class="drop-sub">Digital products &amp; platforms</span></a></li>
+          <li><a class="drop-a" href="website.html"><span class="drop-title">Website</span><span class="drop-sub">Design &amp; web engineering</span></a></li>
+          <li><a class="drop-a" href="applications.html"><span class="drop-title">Applications</span><span class="drop-sub">Mobile &amp; web apps</span></a></li>
         </ul>
       </li>
       <li class="nav-item">
-        <button class="nav-btn">AI Enablement
+        <a class="nav-btn" href="aienablement.html">AI Enablement
           <svg class="nav-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
+        </a>
         <ul class="nav-drop" role="menu">
-          <li><a class="drop-a" href="#"><span class="drop-title">AI Agents</span><span class="drop-sub">Custom intelligent automation</span></a></li>
-          <li><a class="drop-a" href="#"><span class="drop-title">Workflow Automation</span><span class="drop-sub">Smart process integration</span></a></li>
-          <li><a class="drop-a" href="#"><span class="drop-title">Customised AI Solutions</span><span class="drop-sub">Bespoke AI for your business</span></a></li>
+          <li><a class="drop-a" href="aiagents.html"><span class="drop-title">AI Agents</span><span class="drop-sub">Custom intelligent automation</span></a></li>
+          <li><a class="drop-a" href="workflowautomation.html"><span class="drop-title">Workflow Automation</span><span class="drop-sub">Smart process integration</span></a></li>
+          <li><a class="drop-a" href="customisedai.html"><span class="drop-title">Customised AI Solutions</span><span class="drop-sub">Bespoke AI for your business</span></a></li>
         </ul>
       </li>
-      <li class="nav-item"><a class="nav-btn" href="/portfolio">Portfolio</a></li>
+      <li class="nav-item"><a class="nav-btn" href="portfolio.html">Portfolio</a></li>
     </ul>
 
     <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="nav-cta">
@@ -152,50 +153,56 @@
             </button>
           </div>
           <div class="mm-drop" id="mm-studio">
-            <a class="mm-drop-a" href="studio.html#brand-identity"><span class="mm-drop-title">Brand Identity</span><span class="mm-drop-sub">Visual language &amp; positioning</span></a>
-            <a class="mm-drop-a" href="studio.html#shoot-production"><span class="mm-drop-title">Shoot &amp; Production</span><span class="mm-drop-sub">Photo, video &amp; creative assets</span></a>
-            <a class="mm-drop-a" href="studio.html#creative-strategy"><span class="mm-drop-title">Creative Strategy</span><span class="mm-drop-sub">Campaigns &amp; content systems</span></a>
+            <a class="mm-drop-a" href="brandidentity.html"><span class="mm-drop-title">Brand Identity</span><span class="mm-drop-sub">Visual language &amp; positioning</span></a>
+            <a class="mm-drop-a" href="shoot.html"><span class="mm-drop-title">Shoot &amp; Production</span><span class="mm-drop-sub">Photo, video &amp; creative assets</span></a>
+            <a class="mm-drop-a" href="creativestrategy.html"><span class="mm-drop-title">Creative Strategy</span><span class="mm-drop-sub">Campaigns &amp; content systems</span></a>
           </div>
         </li>
 
         <li class="mm-item">
-          <button class="mm-hdr" data-mm="mm-growth" style="padding:14px 20px;justify-content:space-between;width:100%;">
-            Growth Labs
-            <svg class="mm-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
+          <div class="mm-hdr">
+            <a class="mm-hdr-link" href="growthoverview.html">Growth Labs</a>
+            <button class="mm-hdr-toggle" data-mm="mm-growth" aria-label="Expand Growth Labs menu">
+              <svg class="mm-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
           <div class="mm-drop" id="mm-growth">
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">Paid Ads</span><span class="mm-drop-sub">Meta, Google &amp; marketplace</span></a>
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">SEO</span><span class="mm-drop-sub">Organic search &amp; content</span></a>
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">Analytics &amp; Reporting</span><span class="mm-drop-sub">Data dashboards &amp; insights</span></a>
+            <a class="mm-drop-a" href="paidads.html"><span class="mm-drop-title">Paid Ads</span><span class="mm-drop-sub">Meta, Google &amp; marketplace</span></a>
+            <a class="mm-drop-a" href="seo.html"><span class="mm-drop-title">SEO</span><span class="mm-drop-sub">Organic search &amp; content growth</span></a>
+            <a class="mm-drop-a" href="analytics.html"><span class="mm-drop-title">Analytics &amp; Reporting</span><span class="mm-drop-sub">Data dashboards &amp; insights</span></a>
           </div>
         </li>
 
         <li class="mm-item">
-          <button class="mm-hdr" data-mm="mm-product" style="padding:14px 20px;justify-content:space-between;width:100%;">
-            Product Labs
-            <svg class="mm-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
+          <div class="mm-hdr">
+            <a class="mm-hdr-link" href="productoverview.html">Product Labs</a>
+            <button class="mm-hdr-toggle" data-mm="mm-product" aria-label="Expand Product Labs menu">
+              <svg class="mm-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
           <div class="mm-drop" id="mm-product">
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">Product Development</span><span class="mm-drop-sub">Digital products &amp; platforms</span></a>
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">Website</span><span class="mm-drop-sub">Design &amp; web engineering</span></a>
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">Applications</span><span class="mm-drop-sub">Mobile &amp; web apps</span></a>
+            <a class="mm-drop-a" href="productdevelopment.html"><span class="mm-drop-title">Product Development</span><span class="mm-drop-sub">Digital products &amp; platforms</span></a>
+            <a class="mm-drop-a" href="website.html"><span class="mm-drop-title">Website</span><span class="mm-drop-sub">Design &amp; web engineering</span></a>
+            <a class="mm-drop-a" href="applications.html"><span class="mm-drop-title">Applications</span><span class="mm-drop-sub">Mobile &amp; web apps</span></a>
           </div>
         </li>
 
         <li class="mm-item">
-          <button class="mm-hdr" data-mm="mm-ai" style="padding:14px 20px;justify-content:space-between;width:100%;">
-            AI Enablement
-            <svg class="mm-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
+          <div class="mm-hdr">
+            <a class="mm-hdr-link" href="aienablement.html">AI Enablement</a>
+            <button class="mm-hdr-toggle" data-mm="mm-ai" aria-label="Expand AI Enablement menu">
+              <svg class="mm-chevron" viewBox="0 0 12 12" fill="none"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
           <div class="mm-drop" id="mm-ai">
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">AI Agents</span><span class="mm-drop-sub">Custom intelligent automation</span></a>
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">Workflow Automation</span><span class="mm-drop-sub">Smart process integration</span></a>
-            <a class="mm-drop-a" href="#"><span class="mm-drop-title">Customised AI Solutions</span><span class="mm-drop-sub">Bespoke AI for your business</span></a>
+            <a class="mm-drop-a" href="aiagents.html"><span class="mm-drop-title">AI Agents</span><span class="mm-drop-sub">Custom intelligent automation</span></a>
+            <a class="mm-drop-a" href="workflowautomation.html"><span class="mm-drop-title">Workflow Automation</span><span class="mm-drop-sub">Smart process integration</span></a>
+            <a class="mm-drop-a" href="customisedai.html"><span class="mm-drop-title">Customised AI Solutions</span><span class="mm-drop-sub">Bespoke AI for your business</span></a>
           </div>
         </li>
 
         <li class="mm-item">
-          <a class="mm-hdr" href="/portfolio">Portfolio</a>
+          <a class="mm-hdr" href="portfolio.html" style="padding:14px 20px;">Portfolio</a>
         </li>
       </ul>
 
@@ -284,7 +291,7 @@
 
   /* ── Active page highlight ── */
   var path = window.location.pathname;
-  document.querySelectorAll('.nav-btn[href], .mm-hdr[href]').forEach(function (a) {
+  document.querySelectorAll('.nav-btn[href], .mm-hdr-link[href], .drop-a[href], .mm-drop-a[href]').forEach(function (a) {
     var href = a.getAttribute('href') || '';
     if (href && href !== '#' && path.indexOf(href.replace(/^\//, '')) !== -1) {
       a.style.color = '#B4474D';
@@ -293,7 +300,7 @@
 
   /* ── Resize: close mobile menu on desktop ── */
   window.addEventListener('resize', function () {
-    if (window.innerWidth > 1024 && overlay.classList.contains('open')) {
+    if (window.innerWidth > 1100 && overlay.classList.contains('open')) {
       closeMenu();
     }
   });
