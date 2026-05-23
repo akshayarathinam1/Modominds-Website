@@ -14,7 +14,7 @@
     .nav-chevron{width:11px;height:11px;opacity:.55;transition:transform .25s;flex-shrink:0;}
     .nav-item:hover .nav-chevron{transform:rotate(180deg);}
 
-    .nav-drop{position:absolute;top:calc(100% + 10px);left:-8px;background:#fff;border:1px solid #EDE5E5;border-radius:16px;padding:8px;min-width:230px;box-shadow:0 20px 64px rgba(113,42,46,.13),0 4px 16px rgba(0,0,0,.05);opacity:0;pointer-events:none;transform:translateY(-8px) scale(.97);transform-origin:top left;transition:opacity .2s,transform .2s;list-style:none;margin:0;}
+    .nav-drop{position:absolute;top:100%;left:-8px;background:#fff;border:1px solid #EDE5E5;border-radius:16px;padding:18px 8px 8px;min-width:230px;box-shadow:0 20px 64px rgba(113,42,46,.13),0 4px 16px rgba(0,0,0,.05);opacity:0;pointer-events:none;transform:translateY(-4px) scale(.97);transform-origin:top left;transition:opacity .22s,transform .22s;list-style:none;margin:0;}
     .nav-item:hover .nav-drop{opacity:1;pointer-events:all;transform:translateY(0) scale(1);}
     .drop-a{display:flex;flex-direction:column;gap:2px;padding:10px 14px;border-radius:10px;transition:background .15s;text-decoration:none;}
     .drop-a:hover{background:#FFF5F5;}

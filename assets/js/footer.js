@@ -9,43 +9,42 @@
 
   /* ─── Coming Soon Section HTML ─── */
   var comingSoonHTML = `
-<!-- ═══ COMING SOON SECTION ═══ -->
-<section class="coming-soon-section" aria-label="Coming Soon">
+<!-- ═══ AI ENABLEMENT PROMO BANNER ═══ -->
+<section class="coming-soon-section" aria-label="AI Enablement Promotion">
   <div class="cs-bg-orb cs-orb-1" aria-hidden="true"></div>
   <div class="cs-bg-orb cs-orb-2" aria-hidden="true"></div>
 
   <div class="cs-inner">
     <div class="cs-badge">
       <span class="cs-badge-dot"></span>
-      What's Next
+      Modo AI Labs
     </div>
-    <h2 class="cs-heading">Something <span class="cs-gradient-text">Exciting</span> Is Coming</h2>
+    <h2 class="cs-heading">Supercharge Your Business With <span class="cs-gradient-text">AI Enablement</span></h2>
     <p class="cs-subtext">
-      We're working on new services and features that will take your brand to the next level.
-      Stay tuned — the best is yet to come.
+      Deploy autonomous AI agents and intelligent workflows that handle your day-to-day operations so your team can focus on strategy.
     </p>
 
     <div class="cs-cards-row">
-      <div class="cs-card">
-        <div class="cs-card-icon"><i class="fa-solid fa-globe"></i></div>
-        <div class="cs-card-label">Web &amp; App Design</div>
-        <div class="cs-card-status">Q3 2025</div>
-      </div>
-      <div class="cs-card">
+      <a href="aiagents.html" class="cs-card" style="text-decoration: none;">
         <div class="cs-card-icon"><i class="fa-solid fa-robot"></i></div>
-        <div class="cs-card-label">AI-Powered Tools</div>
-        <div class="cs-card-status">Q4 2025</div>
-      </div>
-      <div class="cs-card">
-        <div class="cs-card-icon"><i class="fa-solid fa-chart-line"></i></div>
-        <div class="cs-card-label">Growth Analytics</div>
-        <div class="cs-card-status">Q1 2026</div>
-      </div>
+        <div class="cs-card-label">AI Agents</div>
+        <div class="cs-card-status" style="color: #F24855;">Explore Agents →</div>
+      </a>
+      <a href="workflowautomation.html" class="cs-card" style="text-decoration: none;">
+        <div class="cs-card-icon"><i class="fa-solid fa-gears"></i></div>
+        <div class="cs-card-label">Workflow Automation</div>
+        <div class="cs-card-status" style="color: #F24855;">Explore Workflows →</div>
+      </a>
+      <a href="customisedai.html" class="cs-card" style="text-decoration: none;">
+        <div class="cs-card-icon"><i class="fa-solid fa-microchip"></i></div>
+        <div class="cs-card-label">Customised AI</div>
+        <div class="cs-card-status" style="color: #F24855;">Explore Solutions →</div>
+      </a>
     </div>
 
-    <a href="mailto:hello@modominds.com" class="cs-notify-btn">
-      <i class="fa-solid fa-bell"></i>
-      Get Notified Early
+    <a href="aienablement.html" class="cs-notify-btn">
+      <i class="fa-solid fa-rocket"></i>
+      Explore AI Enablement
     </a>
   </div>
 </section>`;

@@ -1,117 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>AI Agents — Modo Minds</title>
-  <meta name="description" content="Custom intelligent automation and AI Agents by Modo Minds.">
+  <title>AI Agents — Modo Minds | Autonomous Agents Working 24/7</title>
+  <meta name="description" content="Custom AI Agents that handle lead follow-up, customer support, sales qualification, onboarding, and operations — 24/7 without getting tired.">
   <script src="assets/js/head.js"></script>
-  <style>
-    .cs-hero {
-      position: relative;
-      min-height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 120px 20px 80px;
-      overflow: hidden;
-      background: #FAFAF9;
-    }
-    .cs-hero-orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(80px);
-      z-index: 0;
-      opacity: 0.6;
-    }
-    .cs-orb-1 {
-      width: 400px;
-      height: 400px;
-      background: rgba(180, 71, 77, 0.15);
-      top: -100px;
-      left: -100px;
-    }
-    .cs-orb-2 {
-      width: 300px;
-      height: 300px;
-      background: rgba(242, 72, 85, 0.1);
-      bottom: -50px;
-      right: -50px;
-    }
-    .cs-content {
-      position: relative;
-      z-index: 1;
-      max-width: 600px;
-    }
-    .cs-icon {
-      font-size: 4.5rem;
-      color: #B4474D;
-      margin-bottom: 24px;
-      animation: float 6s ease-in-out infinite;
-    }
-    @keyframes float {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-15px); }
-      100% { transform: translateY(0px); }
-    }
-    .cs-title {
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: #18100F;
-      margin-bottom: 16px;
-      line-height: 1.1;
-    }
-    .cs-desc {
-      font-size: 1.125rem;
-      color: #6B5757;
-      margin-bottom: 32px;
-    }
-    .cs-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 14px 32px;
-      background: linear-gradient(135deg, #712A2E 0%, #B4474D 55%, #F24855 100%);
-      color: #fff;
-      font-family: 'Poppins', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      border-radius: 999px;
-      text-decoration: none;
-      box-shadow: 0 4px 18px rgba(180, 71, 77, 0.32);
-      transition: opacity 0.2s, transform 0.2s;
-    }
-    .cs-btn:hover {
-      opacity: 0.92;
-      transform: translateY(-2px);
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/aienablement.css">
+  <link rel="stylesheet" href="assets/css/aiagents.css">
 </head>
 <body>
   <script src="assets/js/navbar.js"></script>
-
   <main>
-    <section class="cs-hero">
-      <div class="cs-hero-orb cs-orb-1"></div>
-      <div class="cs-hero-orb cs-orb-2"></div>
-      
-      <div class="cs-content">
-        <div class="cs-icon"><i class="fa-solid fa-robot"></i></div>
-        <h1 class="cs-title">AI Agents</h1>
-        <p class="cs-desc">We're developing powerful custom intelligent agents. This service page is coming soon.</p>
-        <a href="index.html" class="cs-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="ai-hero" aria-label="AI Agents Hero">
+      <div class="ai-hero-circle-2" aria-hidden="true"></div>
+      <div class="ai-hero-circle-3" aria-hidden="true"></div>
+
+      <div class="ai-hero-content">
+        <div class="ai-hero-eyebrow">
+          <span class="ai-eyebrow-pill">
+            <span class="ai-eyebrow-dot"></span>
+            AI Agents
+          </span>
+        </div>
+        <h1>AI Agents That Work<br>24/7 — <span class="gt">Without Getting Tired</span></h1>
+        <p>Autonomous agents handling lead follow-up, customer support, and operations — while your team sleeps, strategises, and scales.</p>
+      </div>
+      <div class="ai-hero-bottom-bar" aria-hidden="true"></div>
+    </section>
+
+    <!-- ═══ 6 AGENT TYPES ═══ -->
+    <section class="ag-section" id="agent-types" aria-label="Types of AI Agents">
+      <div class="ag-container">
+        <div class="ag-sec-header reveal">
+          <span class="ag-sec-tag">Agent Library</span>
+          <h2 class="ag-sec-title">Types of <span class="gt">AI Agents We Build</span></h2>
+          <p class="ag-sec-sub">From lead qualification to research automation — every agent is custom-built for your specific workflow and data sources.</p>
+        </div>
+        <div class="ag-types-grid">
+
+          <!-- Lead Follow-up -->
+          <div class="ag-type-card reveal d1">
+            <div class="ag-type-ico"><i class="fa-solid fa-user-check"></i></div>
+            <h3 class="ag-type-title">Lead Follow-up Agents</h3>
+            <ul class="ag-type-caps">
+              <li><i class="fa-solid fa-circle-check"></i> Analyse lead behaviour & intent</li>
+              <li><i class="fa-solid fa-circle-check"></i> Send personalised outreach messages</li>
+              <li><i class="fa-solid fa-circle-check"></i> Qualify leads automatically</li>
+              <li><i class="fa-solid fa-circle-check"></i> Schedule follow-up calls</li>
+            </ul>
+            <div class="ag-type-impact">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Impact: 50+ hours/month saved</span>
+            </div>
+          </div>
+
+          <!-- Customer Support -->
+          <div class="ag-type-card reveal d2">
+            <div class="ag-type-ico"><i class="fa-solid fa-headset"></i></div>
+            <h3 class="ag-type-title">Customer Support Agents</h3>
+            <ul class="ag-type-caps">
+              <li><i class="fa-solid fa-circle-check"></i> 24/7 instant response capability</li>
+              <li><i class="fa-solid fa-circle-check"></i> Handle common questions autonomously</li>
+              <li><i class="fa-solid fa-circle-check"></i> Escalate to human when needed</li>
+              <li><i class="fa-solid fa-circle-check"></i> Real-time sentiment analysis</li>
+            </ul>
+            <div class="ag-type-impact">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Impact: 70% support tickets handled</span>
+            </div>
+          </div>
+
+          <!-- Sales Qualification -->
+          <div class="ag-type-card reveal d3">
+            <div class="ag-type-ico"><i class="fa-solid fa-funnel-dollar"></i></div>
+            <h3 class="ag-type-title">Sales Qualification Agents</h3>
+            <ul class="ag-type-caps">
+              <li><i class="fa-solid fa-circle-check"></i> Dynamic lead scoring</li>
+              <li><i class="fa-solid fa-circle-check"></i> Sales readiness detection</li>
+              <li><i class="fa-solid fa-circle-check"></i> Next-best-action recommendations</li>
+              <li><i class="fa-solid fa-circle-check"></i> Conversion probability prediction</li>
+            </ul>
+            <div class="ag-type-impact">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Impact: Sales efficiency +40%</span>
+            </div>
+          </div>
+
+          <!-- Onboarding -->
+          <div class="ag-type-card reveal d1">
+            <div class="ag-type-ico"><i class="fa-solid fa-door-open"></i></div>
+            <h3 class="ag-type-title">Onboarding Agents</h3>
+            <ul class="ag-type-caps">
+              <li><i class="fa-solid fa-circle-check"></i> New customer welcome sequences</li>
+              <li><i class="fa-solid fa-circle-check"></i> Personalised setup assistance</li>
+              <li><i class="fa-solid fa-circle-check"></i> Tutorial guidance & walkthroughs</li>
+              <li><i class="fa-solid fa-circle-check"></i> Early issue detection & escalation</li>
+            </ul>
+            <div class="ag-type-impact">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Impact: Onboarding time cut 50%</span>
+            </div>
+          </div>
+
+          <!-- Internal Ops -->
+          <div class="ag-type-card reveal d2">
+            <div class="ag-type-ico"><i class="fa-solid fa-gears"></i></div>
+            <h3 class="ag-type-title">Internal Operations Agents</h3>
+            <ul class="ag-type-caps">
+              <li><i class="fa-solid fa-circle-check"></i> Email triage & management</li>
+              <li><i class="fa-solid fa-circle-check"></i> Meeting scheduling & prep</li>
+              <li><i class="fa-solid fa-circle-check"></i> Automated report generation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Data entry & CRM updates</li>
+            </ul>
+            <div class="ag-type-impact">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Impact: Admin work −60%</span>
+            </div>
+          </div>
+
+          <!-- Research & Analysis -->
+          <div class="ag-type-card reveal d3">
+            <div class="ag-type-ico"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h3 class="ag-type-title">Research & Analysis Agents</h3>
+            <ul class="ag-type-caps">
+              <li><i class="fa-solid fa-circle-check"></i> Competitive intelligence gathering</li>
+              <li><i class="fa-solid fa-circle-check"></i> Market research & trend analysis</li>
+              <li><i class="fa-solid fa-circle-check"></i> Automated report compilation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Real-time insight delivery</li>
+            </ul>
+            <div class="ag-type-impact">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Impact: Research time −80%</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ HOW AI AGENTS WORK ═══ -->
+    <section class="ag-section ag-section-dark" id="how-it-works" aria-label="How AI Agents Work">
+      <div class="ag-container">
+        <div class="ag-sec-header reveal">
+          <span class="ag-sec-tag-w">Under the Hood</span>
+          <h2 class="ag-sec-title ag-sec-title-w">How AI Agents <span class="gt">Actually Work</span></h2>
+          <p class="ag-sec-sub ag-sec-sub-w">Every agent follows a precise 5-step cognitive loop — from receiving input to taking action and learning from the outcome.</p>
+        </div>
+        <div class="ag-workflow">
+
+          <div class="ag-flow-step reveal d1">
+            <div class="ag-flow-left">
+              <div class="ag-flow-num">1</div>
+              <div class="ag-flow-line"></div>
+            </div>
+            <div class="ag-flow-body">
+              <div class="ag-flow-title"><i class="fa-solid fa-inbox" style="color:#F24855;margin-right:10px"></i>Data Input</div>
+              <div class="ag-flow-items">
+                <span><i class="fa-solid fa-dot-circle"></i> Customer message or inquiry received</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Context pulled from CRM automatically</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Product & knowledge base queried</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Previous conversation history loaded</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ag-flow-step reveal d2">
+            <div class="ag-flow-left">
+              <div class="ag-flow-num">2</div>
+              <div class="ag-flow-line"></div>
+            </div>
+            <div class="ag-flow-body">
+              <div class="ag-flow-title"><i class="fa-solid fa-brain" style="color:#F24855;margin-right:10px"></i>Processing</div>
+              <div class="ag-flow-items">
+                <span><i class="fa-solid fa-dot-circle"></i> Natural language understanding</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Intent recognition & classification</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Sentiment analysis (positive / negative / urgent)</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Required action identification</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ag-flow-step reveal d3">
+            <div class="ag-flow-left">
+              <div class="ag-flow-num">3</div>
+              <div class="ag-flow-line"></div>
+            </div>
+            <div class="ag-flow-body">
+              <div class="ag-flow-title"><i class="fa-solid fa-scale-balanced" style="color:#F24855;margin-right:10px"></i>Decision Making</div>
+              <div class="ag-flow-items">
+                <span><i class="fa-solid fa-dot-circle"></i> Select appropriate response strategy</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Retrieve relevant information & context</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Calculate next best action</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Confidence scoring before execution</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ag-flow-step reveal d1">
+            <div class="ag-flow-left">
+              <div class="ag-flow-num">4</div>
+              <div class="ag-flow-line"></div>
+            </div>
+            <div class="ag-flow-body">
+              <div class="ag-flow-title"><i class="fa-solid fa-play" style="color:#F24855;margin-right:10px"></i>Action Execution</div>
+              <div class="ag-flow-items">
+                <span><i class="fa-solid fa-dot-circle"></i> Send message / email / reply</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Create tasks & update CRM</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Schedule follow-up or book meeting</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Escalate to human if confidence is low</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ag-flow-step reveal d2">
+            <div class="ag-flow-left">
+              <div class="ag-flow-num">5</div>
+              <div class="ag-flow-line"></div>
+            </div>
+            <div class="ag-flow-body">
+              <div class="ag-flow-title"><i class="fa-solid fa-rotate" style="color:#F24855;margin-right:10px"></i>Learning</div>
+              <div class="ag-flow-items">
+                <span><i class="fa-solid fa-dot-circle"></i> Track outcomes & response quality</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Collect performance metrics</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Continuous fine-tuning from feedback</span>
+                <span><i class="fa-solid fa-dot-circle"></i> Gets smarter with every interaction</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ INTEGRATIONS ═══ -->
+    <section class="ag-section ag-section-darker" id="integrations" aria-label="Integrations">
+      <div class="ag-container">
+        <div class="ag-sec-header reveal">
+          <span class="ag-sec-tag-w">Integrations</span>
+          <h2 class="ag-sec-title ag-sec-title-w">Connected to Your <span class="gt">Entire Stack</span></h2>
+          <p class="ag-sec-sub ag-sec-sub-w">Your AI agent plugs seamlessly into every tool your team already uses — no ripping and replacing.</p>
+        </div>
+
+        <div class="ag-integration-flow reveal">
+          <div class="ag-flow-diagram">
+            <div class="ag-flow-node"><div>Prospect fills form</div><div class="ag-flow-node-label">Trigger</div></div>
+            <div class="ag-flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            <div class="ag-flow-node highlight"><div>AI Agent evaluates</div><div class="ag-flow-node-label">ModoAgent</div></div>
+            <div class="ag-flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            <div class="ag-flow-node"><div>HubSpot updated</div><div class="ag-flow-node-label">CRM scored</div></div>
+            <div class="ag-flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            <div class="ag-flow-node"><div>Calendar checked</div><div class="ag-flow-node-label">Best time</div></div>
+            <div class="ag-flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            <div class="ag-flow-node"><div>Outreach sent</div><div class="ag-flow-node-label">Personalised</div></div>
+            <div class="ag-flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            <div class="ag-flow-node"><div>Analytics recorded</div><div class="ag-flow-node-label">Tracked</div></div>
+          </div>
+
+          <div class="ag-tools-grid">
+            <div class="ag-tools-group">
+              <div class="ag-tools-cat">CRM</div>
+              <div class="ag-tools-tags">
+                <span>HubSpot</span><span>Salesforce</span><span>Pipedrive</span>
+              </div>
+            </div>
+            <div class="ag-tools-group">
+              <div class="ag-tools-cat">Email</div>
+              <div class="ag-tools-tags">
+                <span>Gmail</span><span>Outlook</span><span>Mailchimp</span>
+              </div>
+            </div>
+            <div class="ag-tools-group">
+              <div class="ag-tools-cat">Calendar</div>
+              <div class="ag-tools-tags">
+                <span>Google Calendar</span><span>Calendly</span>
+              </div>
+            </div>
+            <div class="ag-tools-group">
+              <div class="ag-tools-cat">Chat</div>
+              <div class="ag-tools-tags">
+                <span>Slack</span><span>Discord</span><span>Teams</span>
+              </div>
+            </div>
+            <div class="ag-tools-group">
+              <div class="ag-tools-cat">Project Management</div>
+              <div class="ag-tools-tags">
+                <span>Asana</span><span>Monday.com</span><span>Notion</span>
+              </div>
+            </div>
+            <div class="ag-tools-group">
+              <div class="ag-tools-cat">Data & Payments</div>
+              <div class="ag-tools-tags">
+                <span>Airtable</span><span>Google Sheets</span><span>Stripe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ IMPLEMENTATION TIMELINE ═══ -->
+    <section class="ag-section ag-section-light" id="timeline" aria-label="Implementation Timeline">
+      <div class="ag-container">
+        <div class="ag-sec-header reveal">
+          <span class="ag-sec-tag">Implementation</span>
+          <h2 class="ag-sec-title">From Brief to <span class="gt">Deployed Agent</span></h2>
+          <p class="ag-sec-sub">A structured, proven process that gets your first AI agent live in as little as 8 weeks — without disrupting operations.</p>
+        </div>
+        <div class="ag-timeline">
+          <div class="ag-tl-card reveal d1">
+            <div class="ag-tl-phase">Phase 1</div>
+            <h3 class="ag-tl-title">Discovery</h3>
+            <div class="ag-tl-time">1–2 Weeks</div>
+            <ul class="ag-tl-items">
+              <li><i class="fa-solid fa-check"></i> Define specific use cases</li>
+              <li><i class="fa-solid fa-check"></i> Map existing workflows</li>
+              <li><i class="fa-solid fa-check"></i> Identify data sources</li>
+              <li><i class="fa-solid fa-check"></i> Set success metrics</li>
+            </ul>
+          </div>
+          <div class="ag-tl-card reveal d2">
+            <div class="ag-tl-phase">Phase 2</div>
+            <h3 class="ag-tl-title">Data Preparation</h3>
+            <div class="ag-tl-time">1–2 Weeks</div>
+            <ul class="ag-tl-items">
+              <li><i class="fa-solid fa-check"></i> Gather historical data</li>
+              <li><i class="fa-solid fa-check"></i> Clean & organise datasets</li>
+              <li><i class="fa-solid fa-check"></i> Create training sets</li>
+              <li><i class="fa-solid fa-check"></i> Set quality standards</li>
+            </ul>
+          </div>
+          <div class="ag-tl-card reveal d3">
+            <div class="ag-tl-phase">Phase 3</div>
+            <h3 class="ag-tl-title">Agent Development</h3>
+            <div class="ag-tl-time">3–4 Weeks</div>
+            <ul class="ag-tl-items">
+              <li><i class="fa-solid fa-check"></i> Build core agent logic</li>
+              <li><i class="fa-solid fa-check"></i> Integrate with platforms</li>
+              <li><i class="fa-solid fa-check"></i> Create decision trees</li>
+              <li><i class="fa-solid fa-check"></i> Test extensively</li>
+            </ul>
+          </div>
+          <div class="ag-tl-card reveal d1">
+            <div class="ag-tl-phase">Phase 4</div>
+            <h3 class="ag-tl-title">Pilot Testing</h3>
+            <div class="ag-tl-time">1–2 Weeks</div>
+            <ul class="ag-tl-items">
+              <li><i class="fa-solid fa-check"></i> Limited deployment (5–10%)</li>
+              <li><i class="fa-solid fa-check"></i> Monitor performance</li>
+              <li><i class="fa-solid fa-check"></i> Collect feedback</li>
+              <li><i class="fa-solid fa-check"></i> Fine-tune behaviours</li>
+            </ul>
+          </div>
+          <div class="ag-tl-card reveal d2">
+            <div class="ag-tl-phase">Phase 5</div>
+            <h3 class="ag-tl-title">Full Deployment</h3>
+            <div class="ag-tl-time">1 Week</div>
+            <ul class="ag-tl-items">
+              <li><i class="fa-solid fa-check"></i> Scale to 100% traffic</li>
+              <li><i class="fa-solid fa-check"></i> Continuous monitoring</li>
+              <li><i class="fa-solid fa-check"></i> Performance optimisation</li>
+              <li><i class="fa-solid fa-check"></i> Team training</li>
+            </ul>
+          </div>
+          <div class="ag-tl-card reveal d3" style="background:linear-gradient(135deg,#712A2E,#F24855);border-color:transparent;color:#fff;">
+            <div class="ag-tl-phase" style="background:rgba(255,255,255,.2);color:#fff;">Phase 6</div>
+            <h3 class="ag-tl-title" style="color:#fff;">Ongoing Optimisation</h3>
+            <div class="ag-tl-time" style="color:rgba(255,255,255,.7);">Ongoing</div>
+            <ul class="ag-tl-items">
+              <li style="color:rgba(255,255,255,.8);"><i class="fa-solid fa-check" style="color:#fff;"></i> Weekly performance reviews</li>
+              <li style="color:rgba(255,255,255,.8);"><i class="fa-solid fa-check" style="color:#fff;"></i> Monthly improvements</li>
+              <li style="color:rgba(255,255,255,.8);"><i class="fa-solid fa-check" style="color:#fff;"></i> Quarterly strategy reviews</li>
+              <li style="color:rgba(255,255,255,.8);"><i class="fa-solid fa-check" style="color:#fff;"></i> Continuous learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ROI CALCULATOR ═══ -->
+    <section class="ag-section" id="roi-calculator" aria-label="ROI Calculator">
+      <div class="ag-container">
+        <div class="ag-sec-header reveal">
+          <span class="ag-sec-tag">ROI Calculator</span>
+          <h2 class="ag-sec-title">Calculate Your <span class="gt">AI Savings</span></h2>
+          <p class="ag-sec-sub">See exactly how much time and money an AI agent saves your business every month.</p>
+        </div>
+        <div class="ag-calc-wrap reveal">
+          <div class="ag-calc-inputs">
+            <div class="ag-calc-title">Your Current Situation</div>
+
+            <div class="ag-field">
+              <label for="calc-hours">Hours spent on task per month</label>
+              <input type="range" id="calc-hours" min="10" max="200" value="80" step="5" oninput="calcROI()">
+              <div class="ag-field-val"><span>10 hrs</span><strong id="val-hours">80 hrs</strong><span>200 hrs</span></div>
+            </div>
+            <div class="ag-field">
+              <label for="calc-rate">Average hourly cost ($/hr)</label>
+              <input type="range" id="calc-rate" min="10" max="100" value="25" step="5" oninput="calcROI()">
+              <div class="ag-field-val"><span>$10</span><strong id="val-rate">$25/hr</strong><span>$100</span></div>
+            </div>
+            <div class="ag-field">
+              <label for="calc-errors">Error rate impact ($/month)</label>
+              <input type="range" id="calc-errors" min="0" max="5000" value="500" step="100" oninput="calcROI()">
+              <div class="ag-field-val"><span>$0</span><strong id="val-errors">$500/mo</strong><span>$5,000</span></div>
+            </div>
+            <div class="ag-field">
+              <label for="calc-automation">Desired automation level</label>
+              <input type="range" id="calc-automation" min="50" max="95" value="80" step="5" oninput="calcROI()">
+              <div class="ag-field-val"><span>50%</span><strong id="val-automation">80%</strong><span>95%</span></div>
+            </div>
+          </div>
+          <div class="ag-calc-results">
+            <div class="ag-calc-title ag-calc-title-w">Your AI Impact</div>
+            <div class="ag-result-item">
+              <div class="ag-result-label">Monthly Cost Savings</div>
+              <div class="ag-result-val" id="result-savings">$2,000</div>
+              <div class="ag-result-sub">Labor + error reduction</div>
+            </div>
+            <div class="ag-result-item">
+              <div class="ag-result-label">Hours Reclaimed / Month</div>
+              <div class="ag-result-val" id="result-hours">64 hrs</div>
+              <div class="ag-result-sub">Given back to your team</div>
+            </div>
+            <div class="ag-result-item">
+              <div class="ag-result-label">Annual Savings</div>
+              <div class="ag-result-val" id="result-annual">$24,000</div>
+              <div class="ag-result-sub">Projected year-one benefit</div>
+            </div>
+            <span class="ag-payback-badge" id="result-payback">⚡ Payback Period: ~2.5 months</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CASE STUDY ═══ -->
+    <section class="ag-section ag-section-light" id="case-studies" aria-label="Case Studies">
+      <div class="ag-container">
+        <div class="ag-sec-header reveal">
+          <span class="ag-sec-tag">Case Studies</span>
+          <h2 class="ag-sec-title">Real Agents, <span class="gt">Real Results</span></h2>
+          <p class="ag-sec-sub">See how businesses just like yours have transformed their operations with Modo Minds AI Agents.</p>
+        </div>
+
+        <div class="ag-case-card reveal">
+          <div>
+            <span class="ag-case-tag">E-Commerce Brand</span>
+            <h3 class="ag-case-title">100+ Daily Support Emails — Automated</h3>
+            <p class="ag-case-challenge"><strong>Challenge:</strong> An e-commerce brand was drowning in 100+ customer support emails daily with a 24-hour response time, causing satisfaction scores to drop and cart abandonment to rise.</p>
+            <div class="ag-case-solution-label">Solution</div>
+            <p class="ag-case-solution">We deployed a custom Customer Support AI Agent trained on their full product catalogue, FAQ library, and past support conversations. The agent handles sizing questions, order tracking, returns, and product recommendations autonomously — escalating only edge cases.</p>
+          </div>
+          <div>
+            <div class="ag-case-results">
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">70%</div>
+                <div class="ag-case-result-label">Support tickets handled by AI</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">Instant</div>
+                <div class="ag-case-result-label">Response time (from 24 hours)</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">4.2/5</div>
+                <div class="ag-case-result-label">Satisfaction score (up from 3.1)</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">$4K</div>
+                <div class="ag-case-result-label">Monthly cost savings</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">1.25</div>
+                <div class="ag-case-result-label">Months to full payback</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">96%</div>
+                <div class="ag-case-result-label">First-response accuracy rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ag-case-card reveal">
+          <div>
+            <span class="ag-case-tag">B2B SaaS Company</span>
+            <h3 class="ag-case-title">Sales Team Spends 40+ Hours on Lead Follow-up</h3>
+            <p class="ag-case-challenge"><strong>Challenge:</strong> A B2B SaaS company's sales team was spending 40+ hours per week manually following up with trial users — leading to missed opportunities and inconsistent messaging.</p>
+            <div class="ag-case-solution-label">Solution</div>
+            <p class="ag-case-solution">We built a Lead Follow-up Agent that monitors trial activity in real-time, identifies high-intent behaviours, and automatically sends hyper-personalised outreach based on features used, time-in-app, and company profile from the CRM.</p>
+          </div>
+          <div>
+            <div class="ag-case-results">
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">+40%</div>
+                <div class="ag-case-result-label">Trial-to-paid conversion rate</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">42 hrs</div>
+                <div class="ag-case-result-label">Per week reclaimed by sales team</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">3×</div>
+                <div class="ag-case-result-label">More follow-up touchpoints</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">$6K</div>
+                <div class="ag-case-result-label">Monthly labour savings</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">2 min</div>
+                <div class="ag-case-result-label">Avg response after trial signup</div>
+              </div>
+              <div class="ag-case-result">
+                <div class="ag-case-result-val">ROI</div>
+                <div class="ag-case-result-label">320% in the first 90 days</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PRICING ═══ -->
+    <section class="ag-section" id="pricing" aria-label="AI Agent Pricing">
+      <div class="ag-container">
+        <div class="ag-sec-header reveal">
+          <span class="ag-sec-tag">Pricing</span>
+          <h2 class="ag-sec-title">Flexible <span class="gt">Agent Packages</span></h2>
+          <p class="ag-sec-sub">From pre-built agents to fully custom enterprise platforms — choose the level of AI that fits your stage.</p>
+        </div>
+        <div class="ag-pricing-grid">
+
+          <div class="ag-price-card reveal d1">
+            <div class="ag-price-name">Pre-Built Agents</div>
+            <div class="ag-price-amt">From $3K</div>
+            <div class="ag-price-per">one-time + $300–500/mo</div>
+            <div class="ag-price-desc">Ready-to-deploy agents for the most common use cases with minimal customisation required.</div>
+            <ul class="ag-price-list">
+              <li><i class="fa-solid fa-circle-check"></i> Lead follow-up agent</li>
+              <li><i class="fa-solid fa-circle-check"></i> Support chatbot agent</li>
+              <li><i class="fa-solid fa-circle-check"></i> Internal tasks agent</li>
+              <li><i class="fa-solid fa-circle-check"></i> Monthly monitoring & optimisation</li>
+            </ul>
+            <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="ag-price-btn" id="ag-price-prebuilt">Book Discovery Call</a>
+          </div>
+
+          <div class="ag-price-card featured reveal d2">
+            <span class="ag-price-popular">Most Popular</span>
+            <div class="ag-price-name ag-price-name-w">Custom Agent Development</div>
+            <div class="ag-price-amt ag-price-amt-w">$8K–$25K</div>
+            <div class="ag-price-per ag-price-per-w">one-time investment</div>
+            <div class="ag-price-desc ag-price-desc-w">Fully tailored agent built around your exact process, data sources, and unique tool integrations.</div>
+            <ul class="ag-price-list ag-price-list-w">
+              <li><i class="fa-solid fa-circle-check"></i> Tailored to your specific process</li>
+              <li><i class="fa-solid fa-circle-check"></i> Custom data source integration</li>
+              <li><i class="fa-solid fa-circle-check"></i> Unique tool connections</li>
+              <li><i class="fa-solid fa-circle-check"></i> 3–6 month implementation</li>
+              <li><i class="fa-solid fa-circle-check"></i> 6 months free optimisation</li>
+            </ul>
+            <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="ag-price-btn ag-price-btn-w" id="ag-price-custom">Start Custom Build</a>
+          </div>
+
+          <div class="ag-price-card reveal d3">
+            <div class="ag-price-name">Enterprise AI Platform</div>
+            <div class="ag-price-amt">$40K+</div>
+            <div class="ag-price-per">per year</div>
+            <div class="ag-price-desc">Multiple interconnected agents, advanced integrations, and custom LLM training for enterprise-scale operations.</div>
+            <ul class="ag-price-list">
+              <li><i class="fa-solid fa-circle-check"></i> Multiple AI agents</li>
+              <li><i class="fa-solid fa-circle-check"></i> Advanced integrations</li>
+              <li><i class="fa-solid fa-circle-check"></i> Custom LLM training</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dedicated support team</li>
+              <li><i class="fa-solid fa-circle-check"></i> Continuous optimisation</li>
+            </ul>
+            <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="ag-price-btn" id="ag-price-enterprise">Request Enterprise Brief</a>
+          </div>
+
+        </div>
       </div>
     </section>
 
     <!-- ═══ CTA BANNER ═══ -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <div class="site-cta-container">
       <section class="site-cta reveal relative overflow-hidden" aria-label="Call to Action">
-        <div class="site-cta-flask" aria-hidden="true">
-          <i class="fa-solid fa-rocket"></i>
-        </div>
+        <div class="site-cta-flask" aria-hidden="true"><i class="fa-solid fa-robot"></i></div>
         <div class="site-cta-orb site-cta-orb-1" aria-hidden="true"></div>
         <div class="site-cta-orb site-cta-orb-2" aria-hidden="true"></div>
-
         <div class="relative z-10 text-center">
           <div class="flex justify-center mb-6">
             <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-xs font-semibold text-white/90 tracking-wide shadow-md">
@@ -119,38 +593,69 @@
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-60"></span>
                 <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
               </span>
-              Accelerate Growth
+              AI Agents
             </span>
           </div>
-
-          <h2>Ready to scale your brand?</h2>
-          <p>Book a free consultation call and let's map out your growth strategy.</p>
-
+          <h2>Ready to deploy your <span class="gt">first agent?</span></h2>
+          <p>Book a free discovery call and we'll identify your highest-ROI automation opportunity within 30 minutes.</p>
           <div class="site-cta-actions">
-            <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="site-cta-btn-primary">
-              <i class="fa-solid fa-calendar-check"></i> Book Free Consultation
+            <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="site-cta-btn-primary" id="ag-cta-book">
+              <i class="fa-solid fa-robot"></i> Deploy Your First AI Agent
             </a>
           </div>
-
           <div class="site-cta-trust" aria-label="Trust indicators">
-            <div class="site-cta-trust-item">
-              <i class="fa-solid fa-shield-halved"></i>
-              <span>No Long-Term Contracts</span>
-            </div>
-            <div class="site-cta-trust-item">
-              <i class="fa-solid fa-bolt"></i>
-              <span>Fast Turnaround</span>
-            </div>
-            <div class="site-cta-trust-item">
-              <i class="fa-solid fa-star"></i>
-              <span>Trusted by 50+ Brands</span>
-            </div>
+            <div class="site-cta-trust-item"><i class="fa-solid fa-shield-halved"></i><span>No Long-Term Contracts</span></div>
+            <div class="site-cta-trust-item"><i class="fa-solid fa-bolt"></i><span>Live in 8 Weeks</span></div>
+            <div class="site-cta-trust-item"><i class="fa-solid fa-star"></i><span>Trusted by 50+ Brands</span></div>
           </div>
         </div>
       </section>
     </div>
-  </main>
 
+  </main>
   <script src="assets/js/footer.js"></script>
+  <button id="go-top" aria-label="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <script>
+    // Scroll reveal
+    const revEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    revEls.forEach(el => obs.observe(el));
+
+    // Go top
+    const goTop = document.getElementById('go-top');
+    if (goTop) {
+      window.addEventListener('scroll', () => goTop.classList.toggle('show', window.scrollY > 400));
+      goTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
+
+    // ROI Calculator
+    function calcROI() {
+      const hours = +document.getElementById('calc-hours').value;
+      const rate = +document.getElementById('calc-rate').value;
+      const errors = +document.getElementById('calc-errors').value;
+      const automation = +document.getElementById('calc-automation').value / 100;
+
+      document.getElementById('val-hours').textContent = hours + ' hrs';
+      document.getElementById('val-rate').textContent = '$' + rate + '/hr';
+      document.getElementById('val-errors').textContent = '$' + errors.toLocaleString() + '/mo';
+      document.getElementById('val-automation').textContent = Math.round(automation * 100) + '%';
+
+      const laborSaving = Math.round(hours * rate * automation);
+      const errorSaving = Math.round(errors * automation);
+      const totalMonthly = laborSaving + errorSaving;
+      const hoursReclaimed = Math.round(hours * automation);
+      const annual = totalMonthly * 12;
+      const implCost = 5000;
+      const payback = (implCost / totalMonthly).toFixed(1);
+
+      document.getElementById('result-savings').textContent = '$' + totalMonthly.toLocaleString();
+      document.getElementById('result-hours').textContent = hoursReclaimed + ' hrs';
+      document.getElementById('result-annual').textContent = '$' + annual.toLocaleString();
+      document.getElementById('result-payback').textContent = '⚡ Payback Period: ~' + payback + ' months';
+    }
+    calcROI();
+  </script>
 </body>
 </html>

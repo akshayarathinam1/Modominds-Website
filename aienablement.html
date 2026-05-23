@@ -1,117 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>AI Enablement — Modo Minds</title>
-  <meta name="description" content="Discover our AI Enablement services and solutions.">
+  <title>AI Enablement — Modo Minds | Intelligent Automation for Your Business</title>
+  <meta name="description" content="Deploy AI agents and smart automations that handle operations so your team focuses on strategy. Modo Minds AI Enablement services.">
   <script src="assets/js/head.js"></script>
-  <style>
-    .cs-hero {
-      position: relative;
-      min-height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 120px 20px 80px;
-      overflow: hidden;
-      background: #FAFAF9;
-    }
-    .cs-hero-orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(80px);
-      z-index: 0;
-      opacity: 0.6;
-    }
-    .cs-orb-1 {
-      width: 400px;
-      height: 400px;
-      background: rgba(180, 71, 77, 0.15);
-      top: -100px;
-      left: -100px;
-    }
-    .cs-orb-2 {
-      width: 300px;
-      height: 300px;
-      background: rgba(242, 72, 85, 0.1);
-      bottom: -50px;
-      right: -50px;
-    }
-    .cs-content {
-      position: relative;
-      z-index: 1;
-      max-width: 600px;
-    }
-    .cs-icon {
-      font-size: 4.5rem;
-      color: #B4474D;
-      margin-bottom: 24px;
-      animation: float 6s ease-in-out infinite;
-    }
-    @keyframes float {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-15px); }
-      100% { transform: translateY(0px); }
-    }
-    .cs-title {
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: #18100F;
-      margin-bottom: 16px;
-      line-height: 1.1;
-    }
-    .cs-desc {
-      font-size: 1.125rem;
-      color: #6B5757;
-      margin-bottom: 32px;
-    }
-    .cs-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 14px 32px;
-      background: linear-gradient(135deg, #712A2E 0%, #B4474D 55%, #F24855 100%);
-      color: #fff;
-      font-family: 'Poppins', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      border-radius: 999px;
-      text-decoration: none;
-      box-shadow: 0 4px 18px rgba(180, 71, 77, 0.32);
-      transition: opacity 0.2s, transform 0.2s;
-    }
-    .cs-btn:hover {
-      opacity: 0.92;
-      transform: translateY(-2px);
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/aienablement.css">
 </head>
 <body>
   <script src="assets/js/navbar.js"></script>
-
   <main>
-    <section class="cs-hero">
-      <div class="cs-hero-orb cs-orb-1"></div>
-      <div class="cs-hero-orb cs-orb-2"></div>
-      
-      <div class="cs-content">
-        <div class="cs-icon"><i class="fa-solid fa-microchip"></i></div>
-        <h1 class="cs-title">AI Enablement</h1>
-        <p class="cs-desc">Our cutting-edge AI enablement services are launching soon. Stay tuned for intelligent automation.</p>
-        <a href="index.html" class="cs-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="ai-hero" aria-label="AI Enablement Hero">
+      <div class="ai-hero-circle-2" aria-hidden="true"></div>
+      <div class="ai-hero-circle-3" aria-hidden="true"></div>
+
+      <div class="ai-hero-content">
+        <div class="ai-hero-eyebrow">
+          <span class="ai-eyebrow-pill">
+            <span class="ai-eyebrow-dot"></span>
+            AI Enablement
+          </span>
+        </div>
+        <h1>Intelligent Automation<br>Built Into Your <span class="gt">Business</span></h1>
+        <p>Deploy AI agents that handle operations so your team focuses on strategy — 24/7, continuously learning, always improving.</p>
+      </div>
+
+      <div class="ai-hero-bottom-bar" aria-hidden="true"></div>
+    </section>
+
+    <!-- ═══ STATS BAR ═══ -->
+    <section class="ai-stats-bar" aria-label="AI Impact Statistics">
+      <div class="ai-container">
+        <div class="ai-stats-grid">
+          <div class="ai-stat reveal">
+            <span class="ai-stat-val">70%</span>
+            <span class="ai-stat-lbl">Support tickets<br>handled by AI</span>
+          </div>
+          <div class="ai-stat reveal d1">
+            <span class="ai-stat-val">50+</span>
+            <span class="ai-stat-lbl">Hours saved<br>per month</span>
+          </div>
+          <div class="ai-stat reveal d2">
+            <span class="ai-stat-val">24/7</span>
+            <span class="ai-stat-lbl">Always-on<br>autonomous agents</span>
+          </div>
+          <div class="ai-stat reveal d3">
+            <span class="ai-stat-val">400%</span>
+            <span class="ai-stat-lbl">Average ROI<br>in year one</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 3 CORE SERVICES ═══ -->
+    <section class="ai-section" id="services" aria-label="Core AI Services">
+      <div class="ai-container">
+        <div class="ai-sec-header center reveal">
+          <span class="ai-sec-tag">Core Services</span>
+          <h2 class="ai-sec-title">Three Pillars of <span class="gt">AI Enablement</span></h2>
+          <p class="ai-sec-sub">From autonomous agents to fully custom models — we build the AI layer that runs your business intelligently.</p>
+        </div>
+
+        <div class="ai-services-grid">
+          <!-- AI Agents -->
+          <div class="ai-service-card reveal d1">
+            <div class="ai-svc-ico"><i class="fa-solid fa-robot"></i></div>
+            <h3 class="ai-svc-title">AI Agents</h3>
+            <p class="ai-svc-desc">Autonomous decision-making systems that work around the clock — handling leads, support, operations, and more without human intervention.</p>
+            <ul class="ai-svc-features">
+              <li><i class="fa-solid fa-circle-check"></i> Autonomous decision-making</li>
+              <li><i class="fa-solid fa-circle-check"></i> 24/7 availability — never sleeps</li>
+              <li><i class="fa-solid fa-circle-check"></i> Continuous learning & improvement</li>
+              <li><i class="fa-solid fa-circle-check"></i> Multi-tool integration</li>
+            </ul>
+            <a href="aiagents.html" class="ai-svc-link" id="ai-svc-agents">
+              Explore AI Agents <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Workflow Automation -->
+          <div class="ai-service-card reveal d2">
+            <div class="ai-svc-ico"><i class="fa-solid fa-arrows-spin"></i></div>
+            <h3 class="ai-svc-title">Workflow Automation</h3>
+            <p class="ai-svc-desc">Smart automations that connect your entire tool stack — eliminating manual work, reducing errors, and speeding up every process.</p>
+            <ul class="ai-svc-features">
+              <li><i class="fa-solid fa-circle-check"></i> Connect all your tools seamlessly</li>
+              <li><i class="fa-solid fa-circle-check"></i> Eliminate manual data entry</li>
+              <li><i class="fa-solid fa-circle-check"></i> Improve accuracy 80–95%</li>
+              <li><i class="fa-solid fa-circle-check"></i> 3–10× faster processes</li>
+            </ul>
+            <a href="workflowautomation.html" class="ai-svc-link" id="ai-svc-workflow">
+              Explore Automations <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Customised AI -->
+          <div class="ai-service-card reveal d3">
+            <div class="ai-svc-ico"><i class="fa-solid fa-microchip"></i></div>
+            <h3 class="ai-svc-title">Customised AI Solutions</h3>
+            <p class="ai-svc-desc">Proprietary models trained on your data — from churn prediction to recommendation engines built for your specific industry and use case.</p>
+            <ul class="ai-svc-features">
+              <li><i class="fa-solid fa-circle-check"></i> Trained on your proprietary data</li>
+              <li><i class="fa-solid fa-circle-check"></i> Industry-specific models</li>
+              <li><i class="fa-solid fa-circle-check"></i> 87%+ prediction accuracy</li>
+              <li><i class="fa-solid fa-circle-check"></i> LLM fine-tuning & RAG</li>
+            </ul>
+            <a href="customisedai.html" class="ai-svc-link" id="ai-svc-custom">
+              Explore Custom AI <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ WHY AI NOW ═══ -->
+    <section class="ai-section ai-section-dark" aria-label="Why AI Enablement">
+      <div class="ai-container">
+        <div class="ai-sec-header center reveal">
+          <span class="ai-sec-tag-w">Why Now</span>
+          <h2 class="ai-sec-title ai-sec-title-w">Why Businesses Are <span class="gt">Betting on AI</span></h2>
+          <p class="ai-sec-sub ai-sec-sub-w">The window to gain competitive advantage through AI is open right now. Early movers are pulling ahead.</p>
+        </div>
+
+        <div class="ai-why-grid">
+          <div class="ai-why-card reveal d1">
+            <div class="ai-why-ico"><i class="fa-solid fa-clock"></i></div>
+            <h3 class="ai-why-title">Time is the New Currency</h3>
+            <p class="ai-why-desc">Your competitors are already automating. Every hour your team spends on manual tasks is an hour they're losing to a smarter operation.</p>
+          </div>
+          <div class="ai-why-card reveal d2">
+            <div class="ai-why-ico"><i class="fa-solid fa-chart-line"></i></div>
+            <h3 class="ai-why-title">Exponential ROI at Scale</h3>
+            <p class="ai-why-desc">AI investments compound. An agent that saves 50 hours this month saves 600+ hours a year — and gets smarter every cycle.</p>
+          </div>
+          <div class="ai-why-card reveal d3">
+            <div class="ai-why-ico"><i class="fa-solid fa-bullseye"></i></div>
+            <h3 class="ai-why-title">Precision Over Guesswork</h3>
+            <p class="ai-why-desc">AI eliminates human error in data entry, lead qualification, and customer responses — delivering consistent, measurable outcomes.</p>
+          </div>
+          <div class="ai-why-card reveal d1">
+            <div class="ai-why-ico"><i class="fa-solid fa-users"></i></div>
+            <h3 class="ai-why-title">Unlock Your Team's Potential</h3>
+            <p class="ai-why-desc">Free your people from repetitive tasks so they can focus on strategy, creativity, and relationships — the work that truly drives growth.</p>
+          </div>
+          <div class="ai-why-card reveal d2">
+            <div class="ai-why-ico"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3 class="ai-why-title">Built for Your Business</h3>
+            <p class="ai-why-desc">We don't deploy off-the-shelf tools. Every AI solution is designed around your workflows, data, and specific business objectives.</p>
+          </div>
+          <div class="ai-why-card reveal d3">
+            <div class="ai-why-ico"><i class="fa-solid fa-rotate"></i></div>
+            <h3 class="ai-why-title">Continuously Improving</h3>
+            <p class="ai-why-desc">Unlike static software, AI solutions learn from every interaction — becoming more accurate and efficient the longer they run.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ HOW WE WORK ═══ -->
+    <section class="ai-section ai-section-light" aria-label="Our Approach">
+      <div class="ai-container">
+        <div class="ai-sec-header center reveal">
+          <span class="ai-sec-tag">Our Approach</span>
+          <h2 class="ai-sec-title">From Strategy to <span class="gt">Deployment</span></h2>
+          <p class="ai-sec-sub">We start with your biggest bottleneck and work backwards — building AI that solves real business problems, not just impressive demos.</p>
+        </div>
+
+        <div class="ai-services-grid">
+          <div class="ai-service-card reveal d1">
+            <div class="ai-svc-ico"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <h3 class="ai-svc-title">1. Discovery & Mapping</h3>
+            <p class="ai-svc-desc">We audit your current workflows, identify automation opportunities, and map where AI can deliver the highest ROI for your specific situation.</p>
+            <ul class="ai-svc-features">
+              <li><i class="fa-solid fa-circle-check"></i> Process documentation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Bottleneck identification</li>
+              <li><i class="fa-solid fa-circle-check"></i> ROI estimation report</li>
+            </ul>
+          </div>
+          <div class="ai-service-card reveal d2">
+            <div class="ai-svc-ico"><i class="fa-solid fa-code"></i></div>
+            <h3 class="ai-svc-title">2. Build & Integrate</h3>
+            <p class="ai-svc-desc">We build your AI agents, automations, or custom models — then integrate them seamlessly with your existing tech stack.</p>
+            <ul class="ai-svc-features">
+              <li><i class="fa-solid fa-circle-check"></i> Custom development</li>
+              <li><i class="fa-solid fa-circle-check"></i> Platform integrations</li>
+              <li><i class="fa-solid fa-circle-check"></i> Extensive testing</li>
+            </ul>
+          </div>
+          <div class="ai-service-card reveal d3">
+            <div class="ai-svc-ico"><i class="fa-solid fa-rocket"></i></div>
+            <h3 class="ai-svc-title">3. Deploy & Optimise</h3>
+            <p class="ai-svc-desc">We launch with careful monitoring, train your team, and continuously improve performance — your AI gets smarter every month.</p>
+            <ul class="ai-svc-features">
+              <li><i class="fa-solid fa-circle-check"></i> Phased rollout</li>
+              <li><i class="fa-solid fa-circle-check"></i> Team training</li>
+              <li><i class="fa-solid fa-circle-check"></i> Monthly optimisation</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- ═══ CTA BANNER ═══ -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <div class="site-cta-container">
       <section class="site-cta reveal relative overflow-hidden" aria-label="Call to Action">
-        <div class="site-cta-flask" aria-hidden="true">
-          <i class="fa-solid fa-rocket"></i>
-        </div>
+        <div class="site-cta-flask" aria-hidden="true"><i class="fa-solid fa-microchip"></i></div>
         <div class="site-cta-orb site-cta-orb-1" aria-hidden="true"></div>
         <div class="site-cta-orb site-cta-orb-2" aria-hidden="true"></div>
-
         <div class="relative z-10 text-center">
           <div class="flex justify-center mb-6">
             <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-xs font-semibold text-white/90 tracking-wide shadow-md">
@@ -119,38 +215,39 @@
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-60"></span>
                 <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
               </span>
-              Accelerate Growth
+              AI Enablement
             </span>
           </div>
-
-          <h2>Ready to scale your brand?</h2>
-          <p>Book a free consultation call and let's map out your growth strategy.</p>
-
+          <h2>Ready to make your business <span class="gt">AI-first?</span></h2>
+          <p>Book a free AI consultation call and let's map out which automation will give you the fastest ROI.</p>
           <div class="site-cta-actions">
-            <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="site-cta-btn-primary">
-              <i class="fa-solid fa-calendar-check"></i> Book Free Consultation
+            <a href="https://cal.com/modo-minds/free-consultation-call" target="_blank" rel="noopener" class="site-cta-btn-primary" id="ai-cta-book">
+              <i class="fa-solid fa-calendar-check"></i> Request AI Consultation
             </a>
           </div>
-
           <div class="site-cta-trust" aria-label="Trust indicators">
-            <div class="site-cta-trust-item">
-              <i class="fa-solid fa-shield-halved"></i>
-              <span>No Long-Term Contracts</span>
-            </div>
-            <div class="site-cta-trust-item">
-              <i class="fa-solid fa-bolt"></i>
-              <span>Fast Turnaround</span>
-            </div>
-            <div class="site-cta-trust-item">
-              <i class="fa-solid fa-star"></i>
-              <span>Trusted by 50+ Brands</span>
-            </div>
+            <div class="site-cta-trust-item"><i class="fa-solid fa-shield-halved"></i><span>No Long-Term Contracts</span></div>
+            <div class="site-cta-trust-item"><i class="fa-solid fa-bolt"></i><span>Fast Implementation</span></div>
+            <div class="site-cta-trust-item"><i class="fa-solid fa-star"></i><span>Trusted by 50+ Brands</span></div>
           </div>
         </div>
       </section>
     </div>
-  </main>
 
+  </main>
   <script src="assets/js/footer.js"></script>
+  <button id="go-top" aria-label="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <script>
+    const revEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    revEls.forEach(el => obs.observe(el));
+    const goTop = document.getElementById('go-top');
+    if (goTop) {
+      window.addEventListener('scroll', () => goTop.classList.toggle('show', window.scrollY > 400));
+      goTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
+  </script>
 </body>
 </html>

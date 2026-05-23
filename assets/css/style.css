@@ -423,7 +423,8 @@ footer hr {
    The homepage defines its own .btn-primary /
    .btn-secondary with a gradient background.
    ───────────────────────────────────────────── */
-.studio-hero .btn-primary {
+.studio-hero .btn-primary,
+.ai-hero .btn-primary {
   display: inline-flex; align-items: center; gap: 8px;
   padding: 12px 28px;
   background: #fff; color: var(--brand-dark);
@@ -433,9 +434,11 @@ footer hr {
   box-shadow: 0 6px 28px rgba(0,0,0,.15);
   text-decoration: none;
 }
-.studio-hero .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(0,0,0,.22); }
+.studio-hero .btn-primary:hover,
+.ai-hero .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(0,0,0,.22); }
 
-.studio-hero .btn-secondary {
+.studio-hero .btn-secondary,
+.ai-hero .btn-secondary {
   display: inline-flex; align-items: center; gap: 8px;
   padding: 11px 24px;
   border: 1.5px solid rgba(255,255,255,.4);
@@ -446,7 +449,8 @@ footer hr {
   transition: background .2s, border-color .2s;
   text-decoration: none;
 }
-.studio-hero .btn-secondary:hover { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.6); }
+.studio-hero .btn-secondary:hover,
+.ai-hero .btn-secondary:hover { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.6); }
 
 /* ─────────────────────────────────────────────
    SERVICES / SECTION SHARED COMPONENTS
