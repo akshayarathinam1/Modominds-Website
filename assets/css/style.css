@@ -817,3 +817,48 @@ footer hr {
   .site-cta { padding: 64px 24px; border-radius: 20px; }
   .site-cta-flask { display: none; }
 }
+
+/* ─────────────────────────────────────────────
+   GLOBAL GRADIENT ICONS
+   ───────────────────────────────────────────── */
+i.fa-solid,
+i.fa-regular,
+i.fa-brands,
+i.fa-duotone,
+i.fa-light,
+i.fa-thin,
+i.fa-sharp,
+i[class*="fa-"] {
+  background: var(--grad) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  display: inline-block !important;
+}
+
+/* Exclude icons on solid/gradient brand backgrounds to preserve readability & contrast */
+.ai-svc-ico i,
+.ai-why-ico i,
+.ca-sol-ico i,
+.ca-mgmt-ico i,
+.cs-card-icon i,
+.lumina-icon i,
+.an-acc-ico i,
+.an-cadence-card:hover .an-cadence-ico i,
+.app-type-card:hover .app-type-ico i,
+.pd-type-card:hover .pd-type-ico i,
+.bi-receive-card:hover .bi-receive-icon i,
+.footer-social a:hover i,
+.fsoc:hover i,
+.site-cta-flask i,
+.lumina-notify-btn i,
+.btn-primary i,
+.btn-ghost i,
+.site-cta-btn-primary i {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  background-clip: initial !important;
+  color: inherit !important;
+}
+
