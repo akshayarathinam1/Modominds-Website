@@ -436,20 +436,20 @@
   letter-spacing: 0.02em;
 }
 .pl-cta-trust-item i {
-  color: #F24855;
+  color: #fff;
 }
 
 /* Floating go-top button */
 #go-top {
   position: fixed; bottom: 32px; right: 32px; width: 48px; height: 48px;
-  border-radius: 50%; background: #fff; border: 1.5px solid #EDE5E5;
-  color: #712A2E; font-size: 1rem; cursor: pointer; display: grid; place-items: center;
+  border-radius: 50%; background: linear-gradient(135deg, #712A2E, #B4474D, #F24855); border: none;
+  color: #fff; font-size: 1rem; cursor: pointer; display: grid; place-items: center;
   opacity: 0; pointer-events: none; transform: translateY(10px);
-  transition: opacity .3s, transform .3s, background .3s, border-color .3s; z-index: 99;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  transition: opacity .3s, transform .3s, box-shadow .3s; z-index: 99;
+  box-shadow: 0 6px 24px rgba(180,71,77,.4);
 }
 #go-top.show { opacity: 1; pointer-events: all; transform: translateY(0); }
-#go-top:hover { background: #FFF5F5; border-color: rgba(180,71,77,0.22); }
+#go-top:hover { box-shadow: 0 10px 32px rgba(180,71,77,.55); transform: translateY(-3px); }
 
 /* ── Responsive ── */
 @media (max-width: 1100px) {

@@ -553,6 +553,91 @@ footer hr {
   transform: translateY(32px);
   transition: opacity .75s cubic-bezier(.22,1,.36,1), transform .75s cubic-bezier(.22,1,.36,1);
 }
+
+/* ─────────────────────────────────────────────
+   GLOBAL DARK GRADIENT ICONS
+   ───────────────────────────────────────────── */
+i.fa-solid,
+i.fa-regular,
+i.fa-brands,
+i.fa-duotone,
+i.fa-light,
+i.fa-thin,
+i.fa-sharp,
+i[class*="fa-"],
+i.fa-solid::before,
+i.fa-regular::before,
+i.fa-brands::before,
+i.fa-duotone::before,
+i.fa-light::before,
+i.fa-thin::before,
+i.fa-sharp::before,
+i[class*="fa-"]::before {
+  background: linear-gradient(135deg, #2D1B1A 0%, #712A2E 50%, #B4474D 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  display: inline-block !important;
+}
+
+/* Exclude/override icons on solid/gradient brand backgrounds to preserve readability & contrast */
+.ai-svc-ico i,
+.ai-svc-ico i::before,
+.ai-why-ico i,
+.ai-why-ico i::before,
+.ca-sol-ico i,
+.ca-sol-ico i::before,
+.ca-mgmt-ico i,
+.ca-mgmt-ico i::before,
+.cs-card-icon i,
+.cs-card-icon i::before,
+.lumina-icon i,
+.lumina-icon i::before,
+.an-acc-ico i,
+.an-acc-ico i::before,
+.an-cadence-card:hover .an-cadence-ico i,
+.an-cadence-card:hover .an-cadence-ico i::before,
+.app-type-card:hover .app-type-ico i,
+.app-type-card:hover .app-type-ico i::before,
+.pd-type-card:hover .pd-type-ico i,
+.pd-type-card:hover .pd-type-ico i::before,
+.bi-receive-card:hover .bi-receive-icon i,
+.bi-receive-card:hover .bi-receive-icon i::before,
+.web-type-card:hover .web-type-ico i,
+.web-type-card:hover .web-type-ico i::before,
+.footer-social a:hover i,
+.footer-social a:hover i::before,
+.fsoc:hover i,
+.fsoc:hover i::before,
+.sh-zz-ico i,
+.sh-zz-ico i::before,
+.sh-ico-feat i,
+.sh-ico-feat i::before,
+.site-cta-flask i,
+.site-cta-flask i::before,
+.lumina-notify-btn i,
+.lumina-notify-btn i::before,
+.btn-primary i,
+.btn-primary i::before,
+.btn-ghost i,
+.btn-ghost i::before,
+.site-cta-btn-primary i,
+.site-cta-btn-primary i::before,
+.cs-bento-icon i,
+.cs-bento-icon i::before,
+.cs-strat-icon i,
+.cs-strat-icon i::before,
+.cs-framework-icon i,
+.cs-framework-icon i::before,
+.pa-channel-icon i,
+.pa-channel-icon i::before {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  background-clip: initial !important;
+  color: #fff !important;
+}
+
 .coming-soon-section.cs-visible {
   opacity: 1;
   transform: none;
@@ -811,54 +896,9 @@ footer hr {
   letter-spacing: 0.02em;
 }
 .site-cta-trust-item i {
-  color: #F24855;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .site-cta { padding: 64px 24px; border-radius: 20px; }
   .site-cta-flask { display: none; }
 }
-
-/* ─────────────────────────────────────────────
-   GLOBAL GRADIENT ICONS
-   ───────────────────────────────────────────── */
-i.fa-solid,
-i.fa-regular,
-i.fa-brands,
-i.fa-duotone,
-i.fa-light,
-i.fa-thin,
-i.fa-sharp,
-i[class*="fa-"] {
-  background: var(--grad) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
-  display: inline-block !important;
-}
-
-/* Exclude icons on solid/gradient brand backgrounds to preserve readability & contrast */
-.ai-svc-ico i,
-.ai-why-ico i,
-.ca-sol-ico i,
-.ca-mgmt-ico i,
-.cs-card-icon i,
-.lumina-icon i,
-.an-acc-ico i,
-.an-cadence-card:hover .an-cadence-ico i,
-.app-type-card:hover .app-type-ico i,
-.pd-type-card:hover .pd-type-ico i,
-.bi-receive-card:hover .bi-receive-icon i,
-.footer-social a:hover i,
-.fsoc:hover i,
-.site-cta-flask i,
-.lumina-notify-btn i,
-.btn-primary i,
-.btn-ghost i,
-.site-cta-btn-primary i {
-  background: none !important;
-  -webkit-background-clip: initial !important;
-  -webkit-text-fill-color: initial !important;
-  background-clip: initial !important;
-  color: inherit !important;
-}
-
