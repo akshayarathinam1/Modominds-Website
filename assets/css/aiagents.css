@@ -181,7 +181,13 @@
   display: flex; align-items: center; gap: 8px;
   font-size: .845rem; color: rgba(255,255,255,.55);
 }
-.ag-flow-items span i { color: #F24855; font-size: .75rem; flex-shrink: 0; }
+.ag-flow-items span i { color: rgba(255, 255, 255, 0.7) !important; font-size: .75rem; flex-shrink: 0; }
+
+/* Under the Hood — flow title icons override (inline style reset) */
+.ag-flow-title i {
+  color: rgba(255, 255, 255, 0.85) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.85) !important;
+}
 
 /* ── INTEGRATION FLOW ── */
 .ag-integration-flow {

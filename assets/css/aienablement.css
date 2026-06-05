@@ -217,10 +217,10 @@
 }
 .ai-svc-ico {
   width: 56px; height: 56px; border-radius: 16px;
-  background: linear-gradient(135deg, #712A2E 0%, #F24855 100%);
+  background: linear-gradient(135deg, rgba(113,42,46,0.75) 0%, rgba(242,72,85,0.7) 100%);
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.4rem; color: #fff; margin-bottom: 22px;
-  box-shadow: 0 8px 24px rgba(242,72,85,.28);
+  font-size: 1.4rem; color: rgba(255,255,255,0.72); margin-bottom: 22px;
+  box-shadow: 0 6px 18px rgba(242,72,85,.16);
   transition: transform .3s var(--ease);
 }
 .ai-service-card:hover .ai-svc-ico { transform: scale(1.08) rotate(-3deg); }
@@ -258,12 +258,35 @@
 }
 .ai-why-ico {
   width: 52px; height: 52px; border-radius: 14px;
-  background: linear-gradient(135deg, rgba(113,42,46,.6) 0%, rgba(242,72,85,.6) 100%);
+  background: linear-gradient(135deg, rgba(113,42,46,.45) 0%, rgba(242,72,85,.45) 100%);
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.3rem; color: #fff; margin-bottom: 18px;
+  font-size: 1.3rem; color: rgba(255,255,255,0.72); margin-bottom: 18px;
 }
 .ai-why-title { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 10px; }
 .ai-why-desc { font-size: .88rem; color: rgba(255,255,255,.5); line-height: 1.7; }
+
+/* ── ICON COLOR CORRECTIONS ── */
+.ai-svc-ico i,
+.ai-svc-ico i::before,
+.ai-why-ico i,
+.ai-why-ico i::before {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.72) !important;
+  background-clip: initial !important;
+  color: rgba(255, 255, 255, 0.72) !important;
+  opacity: 0.72;
+}
+
+.ai-svc-features li i,
+.ai-svc-features li i::before {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: var(--brand-mid) !important;
+  background-clip: initial !important;
+  color: var(--brand-mid) !important;
+}
+
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {

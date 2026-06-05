@@ -636,7 +636,11 @@ i[class*="fa-"]::before {
 .nav-cta i,
 .nav-cta i::before,
 .mm-cta i,
-.mm-cta i::before {
+.mm-cta i::before,
+.site-cta-trust-item i,
+.site-cta-trust-item i::before,
+.ag-type-ico i,
+.ag-type-ico i::before {
   background: none !important;
   -webkit-background-clip: initial !important;
   -webkit-text-fill-color: initial !important;
