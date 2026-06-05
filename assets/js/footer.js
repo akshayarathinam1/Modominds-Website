@@ -70,7 +70,7 @@
         <a href="https://www.linkedin.com/company/modominds/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="https://wa.me/916362722448" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <a href="https://wa.me/917418210064" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
           <i class="fa-brands fa-whatsapp"></i>
         </a>
         <a href="mailto:hello@modominds.com" aria-label="Email us">
@@ -108,9 +108,9 @@
       <h5 class="footer-heading">Contact</h5>
       <ul class="footer-links">
         <li><a href="mailto:hello@modominds.com">hello@modominds.com</a></li>
-        <li><a href="https://wa.me/916362722448" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><a href="https://wa.me/917418210064" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
         <li><a href="/#contact">Free Strategy Session</a></li>
-        <li style="margin-top: 12px; font-size: 0.8rem; color: #9B8A8A; line-height: 1.5; list-style: none;"><i class="fa-solid fa-location-dot" style="color: #F24855; margin-right: 6px;"></i>5/2406, Plot No. 69, VA2, Annur Tech Park, Velmayil Garden, Annur, Pogalur, Coimbatore, Tamil Nadu 641 697</li>
+        <li style="margin-top: 12px; font-size: 0.8rem; color: #9B8A8A; line-height: 1.5; list-style: none;"><i class="fa-solid fa-location-dot" style="margin-right: 6px;"></i>Annur Tech Park, Coimbatore - 641 697</li>
       </ul>
     </div>
 

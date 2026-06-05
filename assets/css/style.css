@@ -630,12 +630,34 @@ i[class*="fa-"]::before {
 .cs-framework-icon i,
 .cs-framework-icon i::before,
 .pa-channel-icon i,
-.pa-channel-icon i::before {
+.pa-channel-icon i::before,
+#go-top i,
+#go-top i::before,
+.nav-cta i,
+.nav-cta i::before,
+.mm-cta i,
+.mm-cta i::before {
   background: none !important;
   -webkit-background-clip: initial !important;
   -webkit-text-fill-color: initial !important;
   background-clip: initial !important;
   color: #fff !important;
+}
+
+footer i.fa-solid,
+footer i.fa-solid::before,
+footer i.fa-regular,
+footer i.fa-regular::before,
+footer i.fa-brands,
+footer i.fa-brands::before,
+footer i[class*="fa-"],
+footer i[class*="fa-"]::before {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  background-clip: initial !important;
+  color: rgba(255, 255, 255, 0.38) !important;
+  transition: color 0.2s;
 }
 
 .coming-soon-section.cs-visible {
