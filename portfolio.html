@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -68,22 +68,13 @@
     <div class="pf-filter-bar" id="pf-filter-bar" role="navigation" aria-label="Portfolio filters">
       <div class="pf-filter-inner">
         <span class="pf-filter-label">Filter</span>
-        <div class="pf-filter-pills" role="group" aria-label="Filter by service or industry">
+        <div class="pf-filter-pills" role="group" aria-label="Filter by industry">
           <button class="pf-pill active" data-filter="all" id="filter-all"><i class="fa-solid fa-grip"></i> All Work</button>
-          <button class="pf-pill" data-filter="brand" id="filter-brand"><i class="fa-solid fa-palette"></i> Brand</button>
-          <button class="pf-pill" data-filter="ai" id="filter-ai"><i class="fa-solid fa-brain"></i> AI &amp; Automation</button>
-          <button class="pf-pill" data-filter="product" id="filter-product"><i class="fa-solid fa-code"></i> Product Dev</button>
-          <button class="pf-pill" data-filter="growth" id="filter-growth"><i class="fa-solid fa-chart-line"></i> Growth</button>
-          <button class="pf-pill" data-filter="seo" id="filter-seo"><i class="fa-solid fa-magnifying-glass"></i> SEO</button>
+          <button class="pf-pill" data-filter="business" id="filter-business"><i class="fa-solid fa-briefcase"></i> Business</button>
+          <button class="pf-pill" data-filter="healthcare" id="filter-healthcare"><i class="fa-solid fa-heart-pulse"></i> Healthcare</button>
         </div>
 
-        <select class="pf-sort-select" id="pf-sort" aria-label="Sort case studies">
-          <option value="latest">Latest</option>
-          <option value="roi">Highest ROI</option>
-          <option value="popular">Most Popular</option>
-        </select>
-
-        <span class="pf-results-count" id="pf-results-count">Showing <strong>6</strong> case studies</span>
+        <span class="pf-results-count" id="pf-results-count">Showing <strong>2</strong> case studies</span>
       </div>
     </div>
 
@@ -92,226 +83,66 @@
       <div class="pf-container">
         <div class="pf-grid" id="pf-grid">
 
-          <!-- Card 1 — E-Commerce AI Support -->
-          <article class="pf-card reveal d1" data-tags="ai" data-roi="320" data-date="2025-11">
-            <a href="case-study.html" class="pf-card-thumb" tabindex="-1" aria-hidden="true">
-              <img src="assets/case_study_ecommerce.png" alt="E-Commerce AI Support dashboard" loading="lazy">
-              <span class="pf-card-industry"><i class="fa-solid fa-bag-shopping"></i> E-Commerce</span>
-              <span class="pf-client-logo" title="FreshCart">FC</span>
+          <!-- Card 1 — SS Coconuts (Business) -->
+          <article class="pf-card reveal d1" data-tags="business" data-roi="240" data-date="2026-02">
+            <a href="https://sscoconut.com/" target="_blank" rel="noopener" class="pf-card-thumb" tabindex="-1" aria-label="Visit SS Coconuts Website">
+              <img src="assets/portfolio/sscoconuts_mockup.png" alt="SS Coconuts export platform showcase" loading="lazy">
+              <span class="pf-card-industry"><i class="fa-solid fa-briefcase"></i> SS Coconuts</span>
               <div class="pf-card-overlay">
-                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Full Case Study</span>
+                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Website</span>
               </div>
             </a>
             <div class="pf-card-body">
-              <div class="pf-card-metric">
-                <div>
-                  <div class="pf-card-metric-val">70%</div>
-                  <div class="pf-card-metric-lbl">Support tickets handled by AI</div>
-                </div>
-              </div>
-              <h2 class="pf-card-title">100+ Daily Support Emails Fully Automated — Instant Response</h2>
-              <p class="pf-card-desc">FreshCart was drowning in 100+ daily support emails with 24-hour response times. We deployed a custom AI Support Agent that reduced response time to under 2 seconds.</p>
+              <h2 class="pf-card-title">B2B Coconut Supply &amp; Export Website</h2>
+              <p class="pf-card-desc">A modern corporate website for SS Coconuts, built to showcase their coconut products, sourcing network, bulk supply capabilities, and export services. The website presents their 30+ years of experience and connects wholesale buyers, distributors, and international customers with their business.</p>
               <div class="pf-card-tags">
-                <span class="pf-card-tag">AI Agents</span>
-                <span class="pf-card-tag">Automation</span>
-                <span class="pf-card-tag">E-Commerce</span>
+                <span class="pf-card-tag">Corporate Website</span>
+                <span class="pf-card-tag">B2B</span>
+                <span class="pf-card-tag">Agriculture</span>
+                <span class="pf-card-tag">Export</span>
+                <span class="pf-card-tag">Wholesale</span>
+                <span class="pf-card-tag">Responsive Web Design</span>
               </div>
             </div>
-            <a href="case-study.html" class="pf-card-footer" id="pf-card-1-cta">
-              <span>View Full Case Study</span>
-              <i class="fa-solid fa-arrow-right"></i>
+            <a href="https://sscoconut.com/" target="_blank" rel="noopener" class="pf-card-footer" id="pf-card-sscoconut-cta">
+              <span>Visit Website</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </article>
 
-          <!-- Card 2 — Brand Identity -->
-          <article class="pf-card reveal d2" data-tags="brand" data-roi="280" data-date="2025-10">
-            <a href="case-study.html" class="pf-card-thumb" tabindex="-1" aria-hidden="true">
-              <img src="assets/case_study_brand.png" alt="Brand identity redesign showcase" loading="lazy">
-              <span class="pf-card-industry"><i class="fa-solid fa-gem"></i> Luxury Goods</span>
-              <span class="pf-client-logo" title="Vélune">VL</span>
+          <!-- Card 2 — Zoe Smiles (Healthcare) -->
+          <article class="pf-card reveal d2" data-tags="healthcare" data-roi="260" data-date="2026-01">
+            <a href="https://zoesmiles.in/" target="_blank" rel="noopener" class="pf-card-thumb" tabindex="-1" aria-label="Visit Zoe Smiles Website">
+              <img src="assets/portfolio/zoesmiles-mockup.png" alt="Zoe Smiles dental clinic digital platform" loading="lazy">
+              <span class="pf-card-industry"><i class="fa-solid fa-heart-pulse"></i> Zoe Smiles</span>
               <div class="pf-card-overlay">
-                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Full Case Study</span>
+                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Website</span>
               </div>
             </a>
             <div class="pf-card-body">
-              <div class="pf-card-metric">
-                <div>
-                  <div class="pf-card-metric-val">+143%</div>
-                  <div class="pf-card-metric-lbl">Increase in brand recognition</div>
-                </div>
-              </div>
-              <h2 class="pf-card-title">Full Brand Identity Overhaul That Tripled Luxury Perception Score</h2>
-              <p class="pf-card-desc">Vélune needed a complete brand refresh to enter premium retail. We delivered a full identity system — logo, colour system, typography, and brand guidelines.</p>
+              <h2 class="pf-card-title">Modern Dentistry, Designed Around Your Smile</h2>
+              <p class="pf-card-desc">A modern website for Zoe Smiles Multispeciality Dental Clinic, designed to showcase their dental services, specialists, patient-first approach, and modern facilities while making appointment booking simple for patients.</p>
               <div class="pf-card-tags">
-                <span class="pf-card-tag">Brand Identity</span>
-                <span class="pf-card-tag">Visual Design</span>
-                <span class="pf-card-tag">Luxury</span>
-              </div>
-            </div>
-            <a href="case-study.html" class="pf-card-footer" id="pf-card-2-cta">
-              <span>View Full Case Study</span>
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-
-          <!-- Card 3 — SaaS Lead AI -->
-          <article class="pf-card reveal d3" data-tags="ai growth" data-roi="400" data-date="2025-09">
-            <a href="case-study.html" class="pf-card-thumb" tabindex="-1" aria-hidden="true">
-              <img src="assets/case_study_saas.png" alt="SaaS product growth dashboard" loading="lazy">
-              <span class="pf-card-industry"><i class="fa-solid fa-cloud"></i> B2B SaaS</span>
-              <span class="pf-client-logo" title="Orbitly">OR</span>
-              <div class="pf-card-overlay">
-                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Full Case Study</span>
-              </div>
-            </a>
-            <div class="pf-card-body">
-              <div class="pf-card-metric">
-                <div>
-                  <div class="pf-card-metric-val">+40%</div>
-                  <div class="pf-card-metric-lbl">Trial-to-paid conversion rate</div>
-                </div>
-              </div>
-              <h2 class="pf-card-title">Sales Team Reclaimed 42 Hours/Week with AI Lead Follow-up Agent</h2>
-              <p class="pf-card-desc">Orbitly's sales team was spending 40+ hours per week on manual follow-ups. Our AI Lead Agent monitors trial activity and sends hyper-personalised outreach automatically.</p>
-              <div class="pf-card-tags">
-                <span class="pf-card-tag">AI Agents</span>
-                <span class="pf-card-tag">Growth</span>
-                <span class="pf-card-tag">SaaS</span>
-              </div>
-            </div>
-            <a href="case-study.html" class="pf-card-footer" id="pf-card-3-cta">
-              <span>View Full Case Study</span>
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-
-          <!-- Card 4 — SEO -->
-          <article class="pf-card reveal d1" data-tags="seo growth" data-roi="210" data-date="2025-08">
-            <a href="case-study.html" class="pf-card-thumb" tabindex="-1" aria-hidden="true">
-              <img src="assets/analytics_dashboard_hero.png" alt="SEO growth analytics" loading="lazy">
-              <span class="pf-card-industry"><i class="fa-solid fa-stethoscope"></i> Healthcare</span>
-              <span class="pf-client-logo" title="MediPath">MP</span>
-              <div class="pf-card-overlay">
-                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Full Case Study</span>
-              </div>
-            </a>
-            <div class="pf-card-body">
-              <div class="pf-card-metric">
-                <div>
-                  <div class="pf-card-metric-val">+312%</div>
-                  <div class="pf-card-metric-lbl">Organic traffic in 6 months</div>
-                </div>
-              </div>
-              <h2 class="pf-card-title">312% Organic Traffic Growth for Healthcare Brand in 6 Months</h2>
-              <p class="pf-card-desc">MediPath had zero organic presence. Through technical SEO, content strategy, and AI-assisted content production we built a 50k/month organic engine.</p>
-              <div class="pf-card-tags">
-                <span class="pf-card-tag">SEO</span>
-                <span class="pf-card-tag">Content</span>
                 <span class="pf-card-tag">Healthcare</span>
+                <span class="pf-card-tag">Dental</span>
+                <span class="pf-card-tag">Clinic Website</span>
+                <span class="pf-card-tag">Appointment Booking</span>
+                <span class="pf-card-tag">Responsive Design</span>
+                <span class="pf-card-tag">UI/UX</span>
               </div>
             </div>
-            <a href="case-study.html" class="pf-card-footer" id="pf-card-4-cta">
-              <span>View Full Case Study</span>
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-
-          <!-- Card 5 — Product Dev -->
-          <article class="pf-card reveal d2" data-tags="product" data-roi="350" data-date="2025-07">
-            <a href="case-study.html" class="pf-card-thumb" tabindex="-1" aria-hidden="true">
-              <img src="assets/case_study_ai.png" alt="AI product development workflow" loading="lazy">
-              <span class="pf-card-industry"><i class="fa-solid fa-building"></i> FinTech</span>
-              <span class="pf-client-logo" title="Kapita">KP</span>
-              <div class="pf-card-overlay">
-                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Full Case Study</span>
-              </div>
-            </a>
-            <div class="pf-card-body">
-              <div class="pf-card-metric">
-                <div>
-                  <div class="pf-card-metric-val">14 wks</div>
-                  <div class="pf-card-metric-lbl">MVP to market (down from 9 months)</div>
-                </div>
-              </div>
-              <h2 class="pf-card-title">FinTech MVP Built &amp; Launched in 14 Weeks — $2M Pre-Seed Raised</h2>
-              <p class="pf-card-desc">Kapita needed a full-stack lending platform built fast. We designed, engineered, and shipped the MVP in 14 weeks, helping them close their pre-seed round.</p>
-              <div class="pf-card-tags">
-                <span class="pf-card-tag">Product Dev</span>
-                <span class="pf-card-tag">MVP</span>
-                <span class="pf-card-tag">FinTech</span>
-              </div>
-            </div>
-            <a href="case-study.html" class="pf-card-footer" id="pf-card-5-cta">
-              <span>View Full Case Study</span>
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-
-          <!-- Card 6 — Growth / Paid Ads -->
-          <article class="pf-card reveal d3" data-tags="growth" data-roi="490" data-date="2025-06">
-            <a href="case-study.html" class="pf-card-thumb" tabindex="-1" aria-hidden="true">
-              <img src="assets/growth_dashboard_hero.png" alt="Growth marketing performance dashboard" loading="lazy">
-              <span class="pf-card-industry"><i class="fa-solid fa-shirt"></i> D2C Fashion</span>
-              <span class="pf-client-logo" title="DRPD">DR</span>
-              <div class="pf-card-overlay">
-                <span class="pf-overlay-cta"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Full Case Study</span>
-              </div>
-            </a>
-            <div class="pf-card-body">
-              <div class="pf-card-metric">
-                <div>
-                  <div class="pf-card-metric-val">4.9×</div>
-                  <div class="pf-card-metric-lbl">Return on ad spend (ROAS)</div>
-                </div>
-              </div>
-              <h2 class="pf-card-title">4.9× ROAS on Meta Ads — D2C Fashion Brand Scales to ₹1Cr/Month</h2>
-              <p class="pf-card-desc">DRPD was struggling with 1.2× ROAS on Meta. We rebuilt their entire funnel — creative strategy, audience segmentation, retargeting — achieving 4.9× ROAS in 60 days.</p>
-              <div class="pf-card-tags">
-                <span class="pf-card-tag">Paid Ads</span>
-                <span class="pf-card-tag">Meta</span>
-                <span class="pf-card-tag">D2C</span>
-              </div>
-            </div>
-            <a href="case-study.html" class="pf-card-footer" id="pf-card-6-cta">
-              <span>View Full Case Study</span>
-              <i class="fa-solid fa-arrow-right"></i>
+            <a href="https://zoesmiles.in/" target="_blank" rel="noopener" class="pf-card-footer" id="pf-card-zoesmiles-cta">
+              <span>Visit Website</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </article>
 
         </div><!-- /pf-grid -->
 
-        <div class="pf-load-more" id="pf-load-more">
-          <button class="pf-btn-load" id="pf-btn-load" aria-label="Load more case studies">
-            <i class="fa-solid fa-rotate-right"></i> Load More Case Studies
-          </button>
-        </div>
-
       </div>
     </section>
 
-    <!-- ═══ TRUST BAND ═══ -->
-    <section class="pf-trust-band" aria-label="Results overview">
-      <div class="pf-container">
-        <div class="pf-trust-grid">
-          <div class="pf-trust-item reveal">
-            <div class="pf-trust-val">50+</div>
-            <div class="pf-trust-lbl">Successful projects delivered across industries</div>
-          </div>
-          <div class="pf-trust-item reveal d1">
-            <div class="pf-trust-val">3.8×</div>
-            <div class="pf-trust-lbl">Average ROI across all client engagements</div>
-          </div>
-          <div class="pf-trust-item reveal d2">
-            <div class="pf-trust-val">94%</div>
-            <div class="pf-trust-lbl">Client retention rate — year over year</div>
-          </div>
-          <div class="pf-trust-item reveal d3">
-            <div class="pf-trust-val">$4M+</div>
-            <div class="pf-trust-lbl">Revenue generated for clients in 2024</div>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
   </main>
 
@@ -343,11 +174,9 @@
     const pills = document.querySelectorAll('.pf-pill');
     const cards = document.querySelectorAll('#pf-grid .pf-card');
     const countEl = document.getElementById('pf-results-count');
-    const sortSel = document.getElementById('pf-sort');
 
-    function filterAndSort() {
+    function filterCards() {
       const active = document.querySelector('.pf-pill.active')?.dataset.filter || 'all';
-      const sort = sortSel.value;
       let visible = [];
 
       cards.forEach(card => {
@@ -357,15 +186,6 @@
         if (show) visible.push(card);
       });
 
-      /* Sort */
-      const grid = document.getElementById('pf-grid');
-      visible.sort((a, b) => {
-        if (sort === 'roi')    return (+b.dataset.roi || 0) - (+a.dataset.roi || 0);
-        if (sort === 'latest') return (b.dataset.date || '').localeCompare(a.dataset.date || '');
-        return 0; // popular — keep original order
-      });
-      visible.forEach(card => grid.appendChild(card));
-
       countEl.innerHTML = `Showing <strong>${visible.length}</strong> case ${visible.length === 1 ? 'study' : 'studies'}`;
     }
 
@@ -373,19 +193,8 @@
       pill.addEventListener('click', () => {
         pills.forEach(p => p.classList.remove('active'));
         pill.classList.add('active');
-        filterAndSort();
+        filterCards();
       });
-    });
-    sortSel.addEventListener('change', filterAndSort);
-
-    /* ── Load more (stub) ── */
-    document.getElementById('pf-btn-load').addEventListener('click', function () {
-      this.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading…';
-      setTimeout(() => {
-        this.innerHTML = '<i class="fa-solid fa-check"></i> All case studies loaded';
-        this.disabled = true;
-        this.style.opacity = '.5';
-      }, 1200);
     });
   </script>
 </body>
